@@ -106,12 +106,7 @@ nav a:hover {
     width: 100%;
     max-width: 800px;
     box-shadow: 0 0 20px rgba(192, 132, 252, 0.2);
-    transition: transform 0.3s ease;
     z-index: 1;
-}
-
-.stats:hover {
-    transform: translateY(-5px);
 }
 
 .stats h2 {
@@ -182,4 +177,15 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+
+
+.box:hover, .metar-box:hover, .stats:hover {
+    transform: translateY(-5px);
+}
+.box, .metar-box, .stats {
+    transition: transform 0.3s ease;
 }
