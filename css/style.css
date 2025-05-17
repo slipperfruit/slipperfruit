@@ -189,3 +189,12 @@ iframe {
 .box, .metar-box, .stats {
     transition: transform 0.3s ease;
 }
+
+a {
+    color: hotpink;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+a:hover {
+    color: lavender;
+}
